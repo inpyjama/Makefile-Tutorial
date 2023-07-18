@@ -21,7 +21,7 @@ TARGET = calculator
 all: $(BUILDDIR)/$(TARGET)
 
 $(BUILDDIR)/$(TARGET): $(OBJECTS)
-	$(CC) $(LDFLAGS) $^ -o $@
+	$(CC) $^ -o $@
 
 # Compile each source file
 $(BUILDDIR)/%.o : $(SRCDIR)/%.c
