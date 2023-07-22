@@ -13,6 +13,7 @@ int main() {
     int num1, num2, result;
     char operator;
 
+    printf("using add library version %s\n\r", ADD_VERSION);
     printf("Enter first number(int): ");
     scanf("%d", &num1);
 
